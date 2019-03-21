@@ -1,0 +1,16 @@
+ext {
+    minSdkVersion = 21
+    targetSdkVersion = 28
+    versionCode = 1
+    versionName = "1.0"
+
+    compileSdkVersion = 28
+
+    kotlin_version = '1.3.21'
+
+    commom_use = [
+            appcompatV7                : "com.android.support:appcompat-v7:28.0.0",
+            jdk7   : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
+    ]
+
+}
